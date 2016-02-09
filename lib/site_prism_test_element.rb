@@ -1,5 +1,5 @@
 require "site_prism_test_element/version"
-require "capybara"
+require "capybara/dsl"
 require "site_prism"
 
 Capybara.add_selector(:test_element) do
